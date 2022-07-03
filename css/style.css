@@ -1,0 +1,446 @@
+/* #0067b8; */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+}
+
+/* PART --1  */
+
+.navbar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  width: 60%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #262626;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 13px;
+  margin: 16px 8px 10px;
+}
+
+.p:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ri-user-add-line {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 7px;
+  margin-right: 150px;
+  color: gray;
+}
+
+/* PART 2 */
+
+.header-middle {
+  width: 100%;
+  height: 68%;
+  background-repeat: no-repeat;
+  background-image: url(/image/Highlight-Hero-M365-Screenplates-Update-Excel\ VP5-1920x600.jpeg);
+  background-size: 100% 100%;
+}
+
+.header-middle__data {
+  padding-left: 160px;
+  padding-top: 120px;
+}
+
+.header-middle__p1 {
+  line-height: 74.4px;
+  font-size: 37px;
+  font-weight: 600;
+}
+.header-middle__p2 {
+  line-height: 24px;
+}
+
+.header-middle__button {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.six-person {
+  text-align: center;
+  width: 11%;
+  height: 7%;
+  margin-top: 15px;
+  margin-left: 160px;
+  border: 1px solid #0067b8;
+  color: aliceblue;
+  background: #0067b8;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  padding: 6px;
+  font-weight: 600px;
+}
+.arrow {
+  text-decoration: none;
+  color: #0067b8;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+.arrow:hover {
+  animation-name: moveLeft;
+  animation-duration: 0.2s;
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(-5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.one-person {
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  margin-left: 10px;
+  color: #0067b8;
+  text-align: center;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+.one-person:hover {
+  border-bottom: 2px solid #0067b8;
+}
+
+/* PART 3 */
+
+.arrow-3 {
+  position: absolute;
+  width: 8%;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 10px;
+}
+
+.ri-checkbox-blank-circle-fill,
+.ri-checkbox-blank-circle-line {
+  font-size: 16px;
+}
+.ri-arrow-left-s-line,
+.ri-arrow-right-s-line {
+  font-size: 35px;
+}
+
+/* part--4 */
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.product-1 {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14%;
+  line-height: 40px;
+}
+
+.product-1 a {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 16px;
+  color: #0067b8;
+}
+.product-1 img {
+  width: 17%;
+}
+
+/* part-5 */
+
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+
+  font-family: "segoe ui", "segoeui", "helvetica neue", helvetica, arial,
+    sans-serif, "segoe ui web regular", "segoe ui symbol", "bbalpha sans",
+    "s60 sans";
+}
+
+.product-detail-1 {
+  width: 100%;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.product-detail-1 img {
+  display: inline-block;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.p1 {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.p2 {
+  padding-top: 25px;
+  color: #262626;
+}
+
+.product-detail-1 a {
+  width: 100%;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0067b8;
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* part---6 */
+
+.section-2 {
+  width: 100%;
+  height: 70%;
+  background-image: url(/image/gldn-MSFT-hero-Edge\ VP5-1596x600.jpeg);
+  background-repeat: no-repeat;
+  background-size: 89%;
+  margin: 40px 0px 0px 85px;
+}
+
+.section-2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 10%;
+  top: 190%;
+  width: 30%;
+  height: 40%;
+  background-color: white;
+  padding: 48px;
+
+}
+.section-2 a {
+  text-decoration: none;
+  color: #262626;
+}
+.section-2-p1{
+  font-size: 37px;
+ font-weight: 600;
+ line-height: 44.4px;
+}
+
+.section-2-p2{
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+.section-2-btn{
+  color: white;
+  background-color: #0067b8;
+  width: 45%;
+  height: 22%;
+  text-align: center;
+  margin: 24px 0px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+               /* part----7 */
+ 
+ .section-3{
+  width: 100%;
+  margin-top: 123px;
+ }
+
+ .section-3-h2{
+  display: inline-block;
+  margin-left: 62px;
+  font-size: 37px;
+  font-weight: 600;
+ }
+ 
+
+ .section-3-content{
+   width: 100%;
+  display: flex;
+   align-items: center;
+   margin-top: 60px;
+}   
+
+
+
+.section-3-content1{
+
+  width: 100%;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.section-3-content1 img{
+  display: inline-block;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.section-3-h3{
+  font-weight: 600;
+  font-size: 29px;
+  padding-top: 35px;
+}
+
+.section-3-content1 p{
+  padding-top: 15px;
+}
+
+.section-3-content1 a{
+  width: 100%;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0067b8;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+}
+  
+                 /* part---8 */
+
+
+.socailmedia{
+  width: 22%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 60px;
+ justify-content: space-between;
+ align-items: center;
+}
+.section-4-p{
+  font-size: 18px;
+}
+.socailmedia img{
+  width: 10%;
+}
+
+              /* part---9 */
+
+.section-5{
+  width: 100%;
+  height: 75%;
+ background-color:#F2F2F2;
+ margin-top: 100px;
+}
+
+.listatom-class{
+  display: flex;
+  justify-content: space-between;
+  line-height: 34px;
+  padding: 65px 68px;
+  
+}
+ol li{
+  list-style: none;
+}
+.list-atom h2{
+  font-size: 15px;
+  color:rgb(97, 97, 97);
+  font-weight: 600;
+}
+.list-atom a{
+  color: #262626;
+  text-decoration: none;
+  font-size: 11px;
+  color: #262626;
+
+}
+.list-atom a:hover{
+  color:rgb(97, 97, 97);
+  border-bottom: 1px solid #262626 ;
+}
+
+
+.bottom-nav{
+ 
+  width: 100%;
+  display:flex ;
+  justify-content: space-between;
+}
+.ri-earth-line{
+  font-size: 25px;
+}
+.bootom-nav-left{
+  width: 9%;
+  display: flex;
+  justify-content: space-between;
+ margin-left: 80px;
+}
+
+.bootom-nav-right{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   font-size: 11px;
+   margin-right: 100px;
+}
+.bootom-nav-right a{
+  text-decoration: none;
+  color:rgb(97, 97, 97);
+}
+
+.bootom-nav-right a:hover{
+  border-bottom: 1px solid rgb(97, 97, 97);
+}
+
